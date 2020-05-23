@@ -41,7 +41,9 @@ The **Wealth Index** of the DHS survey was employed as the target variable that 
 
 Nightlight can be utilized as a proxy for wealth, to indicate wealth distribution within a country, with higher level of luminescence corresponding to more electricity usage, infrastructure investment and thus economic activity and affluence.
 
-![alt text](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/night3.png?raw=true)
+<p align="center">
+  <img src="https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/night3.png?raw=true" width="200">
+</p>
 *Nighttime light intensity correlation with average wealth index for 600 Bangladeshi household clusters*
 
 #### OpenStreetMaps Data (OSM)
@@ -71,7 +73,10 @@ Out of all combinations of data for feature spaces, hhile the model created with
 
 With a deployed model, we can obtain a fairly accurate reading of average wealth for any geographical location within the country of Bangladesh, as long as the right coordinates of the location of interest are fed into the model. Therefore, even in places where there are gaps in the survey data, the model can extrapolate and provide estimation to fill in the missing information for unknown areas, helping the process of aid targeting and financial inclusion schemes.
 
-![alt text](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/admin_cluster.png?raw=true)
+<p align="center">
+  <img src="https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/admin_cluster.png?raw=true">
+</p>
+*Map of average wealth index prediction for household clusters layered with Bangladesh administrative boundaries*
 
 ## Policy Implications
 
