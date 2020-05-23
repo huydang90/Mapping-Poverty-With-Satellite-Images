@@ -77,6 +77,7 @@ With a deployed model, we can obtain a fairly accurate reading of average wealth
 <p align="center">
   <img src="https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/admin_cluster.png?raw=true">
 </p>
+
 *Map of average wealth index prediction for household clusters layered with Bangladesh administrative boundaries*
 
 ## Policy Implications
