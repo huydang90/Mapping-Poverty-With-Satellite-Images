@@ -26,7 +26,7 @@ This repository contains the notebooks and information for my Master Thesis rese
 
 Mapping poverty to better target aid and development is a difficult undertaking. Recent researches and development in the field of Computer Vision and Deep Learning have displayed the effectiveness of employing satellite imagery to map out impoverished areas in the sub-Saharan African region. This study seeks to expand further on this research and investigate the extent to which this methodology can be applied in the context of Bangladesh to predict wealth distribution of households within the country. The state-of-the-art model utilizing daytime and nighttime satellite images captures the most of the welfare variation in Bangladeshi household clusters at 72 percent. However, the model relying on open-source data of nightlight intensity and geo-spatial mapping also presents a promising alternative that can achieve similar result at 70 percent while maintaining ease of access and no incurring cost for acquisition.
 
-![*Earth by Night, Courtesy of NASA/NOAA.*](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/nasa.jpg?raw=true)
+![alt *Earth by Night, Courtesy of NASA/NOAA.*](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/nasa.jpg?raw=true)
 
 ## Data Collection: 
 
