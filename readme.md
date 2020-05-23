@@ -44,6 +44,7 @@ Nightlight can be utilized as a proxy for wealth, to indicate wealth distributio
 <p align="center">
   <img src="https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/night3.png?raw=true" width="500">
 </p>
+
 *Nighttime light intensity correlation with average wealth index for 600 Bangladeshi household clusters*
 
 #### OpenStreetMaps Data (OSM)
