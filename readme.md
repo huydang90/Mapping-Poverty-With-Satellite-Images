@@ -1,3 +1,47 @@
+<p align="center">
+<b><a href="#summary">Summary</a></b>
+|
+<b><a href="#data-collection">Data Collection</a></b>
+|
+<b><a href="#data-processing">Data Processing</a></b>
+|
+<b><a href="#modelling">Modelling</a></b>
+|
+<b><a href="#results-and-interpretation">Results and Interpretation</a></b>
+|
+<b><a href="#analysis">Analysis</a></b>
+|
+<b><a href="#implications">implications</a></b>
+|
+<b><a href="#potential-issues-and-model-improvement">Potential issues and model improvement</a></b>
+|
+<b><a href="#acknowledgements">Acknowledgements</a></b>
+</p>
+
 # Mapping Poverty from Space
 
-Mapping poverty to better target aid and development is a difficult business for a number of reasons: the reliance on the collection of household data which is time-consuming and costly; household surveys and data are often not avail- able for many countries of interest and when they are, it is usually not at the desired frequency and this time-lag cre- ates problems in the decision making process for develop- ment and aid agencies; to get a sense of a region’s current development, it is often essential to use predictions to fill in the gap in the time-series data of that region’s economic in- dicators, which can be questionable and unreliable. Recent researches and development in the field of computer vision and deep learning have displayed the effectiveness of em- ploying publicly available satellite images to map out im- poverished areas in the sub-Saharan African region (Neal Jean et al., 2016). This studies seeks to investigate the ex- tent to which this methodology can be applied in the context of Bangladesh to predict different socioeconomic and poverty indicators.
+This repository contains the notebooks and information for my Master Thesis research - "Mapping Poverty in Bangladesh with Satellite Images and Deep Learning".
+
+## Summary: 
+
+Mapping poverty to better target aid and development is a difficult undertaking. Recent researches and development in the field of Computer Vision and Deep Learning have displayed the effectiveness of employing satellite imagery to map out impoverished areas in the sub-Saharan African region. This study seeks to expand further on this research and investigate the extent to which this methodology can be applied in the context of Bangladesh to predict wealth distribution of households within the country. The state-of-the-art model utilizing daytime and nighttime satellite images captures the most of the welfare variation in Bangladeshi household clusters at 72 percent. However, the model relying on open-source data of nightlight intensity and geo-spatial mapping also presents a promising alternative that can achieve similar result at 70 percent while maintaining ease of access and no incurring cost for acquisition.
+
+## Data Collection: 
+
+- **Demographic and Health Survey (DHS)**: To provide the ground truth for distribution of wealth across the country, the Bangladesh Demographic and Health Survey [DHS](https://dhsprogram.com/what-we-do/survey/survey-display-461.cfm) is utilized. Sampled roughly 17300 households in 2014. DHS is a nationally representative survey that focuses on encapsulating the nation’s socioeconomic indicators and thus can be used as a poverty benchmark with which to compare the models built from open-source data;
+- **Nighttime Light Intensity**: Data on nightlight is collected from the [NOAA National Centers for Environmental Information](https://ngdc.noaa.gov/eog/dmsp/downloadV4composites.html) (NCEI) which provides continuous mapping of nighttime earth images. Global nightlight for the calendar year of 2013 represents a close alignment with the information derived from DHS;
+- **Daytime Satellite Imagery**: The daylight satellite imagery data is collected using [Google Static Maps
+    API](https://developers.google.com/maps/documentation/maps-static/intro). For a landmass area of approximately 130,170 squared km, 414,757 images in total have been collected to form the full picture of the country;
+- **OpenStreetMaps Data (OSM)**: [Open Street Map](https://download.geofabrik.de/asia/bangladesh.html) (OSM) provides a free alternative to Google Static Image that offers geo-mapping of physical elements in the national landscape of the country of choice, ranging from natural to man-made features in the real world. The features extracted from OSM data might be able to indicate the levels of the wealth distribution across the country, as a stand-alone feature space, or in combination with the nightlight luminosity data to increase the predictive power of the models constructed from these resources.
+
+## Methodology: 
+
+
+
+## Model Architecture: 
+
+## Results and Interpretation: 
+
+
+
+
