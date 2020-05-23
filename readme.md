@@ -42,7 +42,7 @@ The **Wealth Index** of the DHS survey was employed as the target variable that 
 Nightlight can be utilized as a proxy for wealth, to indicate wealth distribution within a country, with higher level of luminescence corresponding to more electricity usage, infrastructure investment and thus economic activity and affluence.
 
 <p align="center">
-  <img src="https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/night3.png?raw=true" width="200">
+  <img src="https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/night3.png?raw=true" width="500">
 </p>
 *Nighttime light intensity correlation with average wealth index for 600 Bangladeshi household clusters*
 
