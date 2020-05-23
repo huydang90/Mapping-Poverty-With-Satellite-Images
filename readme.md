@@ -20,11 +20,13 @@
 
 # Mapping Poverty from Space
 
-This repository contains the notebooks and information for my Master Thesis research - "Mapping Poverty in Bangladesh with Satellite Images and Deep Learning".
+This repository contains the notebooks and information for my Master Thesis research - ["Mapping Poverty in Bangladesh with Satellite Images and Deep Learning"](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Final%20Paper/Mapping_Poverty_In_Bangladesh%20-%20final_compressed.pdf).
 
 ## Summary: 
 
 Mapping poverty to better target aid and development is a difficult undertaking. Recent researches and development in the field of Computer Vision and Deep Learning have displayed the effectiveness of employing satellite imagery to map out impoverished areas in the sub-Saharan African region. This study seeks to expand further on this research and investigate the extent to which this methodology can be applied in the context of Bangladesh to predict wealth distribution of households within the country. The state-of-the-art model utilizing daytime and nighttime satellite images captures the most of the welfare variation in Bangladeshi household clusters at 72 percent. However, the model relying on open-source data of nightlight intensity and geo-spatial mapping also presents a promising alternative that can achieve similar result at 70 percent while maintaining ease of access and no incurring cost for acquisition.
+
+![alt text](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Graphs/nasa.jpg?raw=true)
 
 ## Data Collection: 
 
@@ -36,7 +38,9 @@ Mapping poverty to better target aid and development is a difficult undertaking.
 
 ## Methodology: 
 
+### Target Identification: 
 
+The Wealth Index of the DHS survey was employed as the target variable that represents and measures inequalities. This metrics has been utilized as a frequent indicator of household-level wealth in country-level surveys and is constituted by reducing the high dimensionality of household asset data through principal components analysis
 
 ## Model Architecture: 
 
