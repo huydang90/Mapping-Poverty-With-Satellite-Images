@@ -10,7 +10,8 @@
 <b><a href="#policy-implications">Policy Implications</a></b>
 </p>
 
-# Mapping Poverty from Space
+
+# Mapping Poverty from Space:
 
 This repository contains the notebooks and information for my Master Thesis research - ["Mapping Poverty in Bangladesh with Satellite Images and Deep Learning"](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images/blob/master/Final%20Paper/Mapping_Poverty_In_Bangladesh.pdf).
 
